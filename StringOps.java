@@ -93,11 +93,7 @@ public class StringOps {
         {
             n += (char)(string.charAt(0) + 32); 
         }
-        //else 
-        //{
-          // n += string.charAt(0); 
-        //}
-        //first word transition
+        
        for (i = 1; i < a ; i++)
         {
             char ch = string.charAt(i);
@@ -106,20 +102,6 @@ public class StringOps {
                 count++;
             }
             char last = string.charAt(i-1);
-            //if first word comes after space
-            //if ((last == ' ') && (ch != ' ') && (count>=1))
-           // {
-              // if ((ch >= 'A') && (ch <= 'Z'))
-              // {
-              //   n += (char)(string.charAt(i) + 32);
-              // }
-              // else 
-              // {
-               // n += ch;
-              // }
-              //count2++;
-          //  }
-
             //first letter after space
              if ((last == ' ') && (ch != ' ') && (count>=1))
             {

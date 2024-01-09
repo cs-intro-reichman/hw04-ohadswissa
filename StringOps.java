@@ -24,12 +24,13 @@ public class StringOps {
 
     public static void main(String[] args) {
 //debugging purpuses
+        System.out.println(capVowelsLowRest("One two tHRee world"));
        
-        int [] appear = allIndexOf("MMMM",'M');
-        for (int i = 0; i < appear.length; i++)
-        {
-            System.out.print(appear[i]+" "); 
-        }
+       // int [] appear = allIndexOf("MMMM",'M');
+        //for (int i = 0; i < appear.length; i++)
+       // {
+        //    System.out.print(appear[i]+" "); 
+       // }
       
     }
         
@@ -59,7 +60,7 @@ public class StringOps {
              n += 'I';   
              count++; 
             } 
-            else if (ch == 'o')
+            else if ((ch == 'o')||(ch == 'O'))
             {
               n += 'O';
               count++; 

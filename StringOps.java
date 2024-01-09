@@ -24,7 +24,7 @@ public class StringOps {
 
     public static void main(String[] args) {
 //debugging purpuses
-        System.out.println(camelCase("  tWo   wordS"));
+        System.out.println(camelCase("Hello World"));
        
        // int [] appear = allIndexOf("MMMM",'M');
         //for (int i = 0; i < appear.length; i++)
@@ -107,22 +107,21 @@ public class StringOps {
             }
             char last = string.charAt(i-1);
             //if first word comes after space
-            if ((last == ' ') && (ch != ' ') && (count2==0))
-            {
-               if ((ch >= 'A') && (ch <= 'Z'))
-               {
-                 n += (char)(string.charAt(i) + 32);
-               }
-               else 
-               {
-                n += ch;
-                
-               }
-               count2++;
-            }
+            //if ((last == ' ') && (ch != ' ') && (count>=1))
+           // {
+              // if ((ch >= 'A') && (ch <= 'Z'))
+              // {
+              //   n += (char)(string.charAt(i) + 32);
+              // }
+              // else 
+              // {
+               // n += ch;
+              // }
+              //count2++;
+          //  }
 
             //first letter after space
-            else if ((last == ' ') && (ch != ' '))
+             if ((last == ' ') && (ch != ' ') && (count>=1))
             {
                if ((ch >= 'a') && (ch <= 'z'))
                {

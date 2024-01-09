@@ -24,7 +24,7 @@ public class StringOps {
 
     public static void main(String[] args) {
 //debugging purpuses
-        System.out.println(capVowelsLowRest("One two tHRee world"));
+        System.out.println(camelCase("tWo   wordS"));
        
        // int [] appear = allIndexOf("MMMM",'M');
         //for (int i = 0; i < appear.length; i++)

@@ -89,14 +89,14 @@ public class StringOps {
         int count = 0;
         int count2 = 0;
         //first letter check
-        if ((string.charAt(0) >= 'A') && (string.charAt(0) <= 'Z'))
+        if ((string.charAt(0) >= 'A') && (string.charAt(0) <= 'Z') && (string.charAt(0)!= ' '))
         {
             n += (char)(string.charAt(0) + 32); 
         }
-        else 
-        {
-           n += string.charAt(0); 
-        }
+        //else 
+        //{
+          // n += string.charAt(0); 
+        //}
         //first word transition
        for (i = 1; i < a ; i++)
         {
